@@ -1,4 +1,6 @@
-class Solution {
+package leetcode;
+
+class LC_13_RomanToInteger {
     /**
      * EASY
      * 
@@ -20,7 +22,7 @@ class Solution {
      * 
      * Given a roman numeral, convert it to an integer.
      * 
-     * @param s the roman number
+     * @param romanNumber the roman number
      */
     public int romanToInt(String romanNumber) {
         int charPos = 0;
@@ -31,9 +33,9 @@ class Solution {
         //check if character is alone, or is a combination
         while (charPos < length) {
             char currentLetter = romanNumber.charAt(charPos);
-            char nLetter = (charPos+1 < length) ? s.charAt(charPos+1) : 0;
-            char nnLetter = (charPos+2 < length) ? s.charAt(charPos+2) : 0;
-            char nnnLetter = (charPos+3 < length) ? s.charAt(charPos+3) : 0;
+            char nLetter = (charPos+1 < length) ? romanNumber.charAt(charPos+1) : 0;
+            char nnLetter = (charPos+2 < length) ? romanNumber.charAt(charPos+2) : 0;
+            char nnnLetter = (charPos+3 < length) ? romanNumber.charAt(charPos+3) : 0;
             //take current letter and 3 next letters
             //if current is V, the number can be
             //V, VI, VII, VIII

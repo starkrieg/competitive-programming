@@ -1,4 +1,8 @@
-class Solution {
+package leetcode;
+
+import java.util.Stack;
+
+class LC_20_ValidParentheses {
     /***
      * EASY
      * 
@@ -11,7 +15,7 @@ class Solution {
      * Open brackets must be closed in the correct order.
      * Every close bracket has a corresponding open bracket of the same type.
      * 
-     * @param s the string to be validated
+     * @param input the string to be validated
      */
     public boolean isValid(String input) {
         // a stack to hold the open brackets in sequence

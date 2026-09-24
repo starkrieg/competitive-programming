@@ -1,4 +1,6 @@
-class Solution {
+package leetcode;
+
+class LC_9_PalindromeNumber {
     /**
      * EASY
      * 

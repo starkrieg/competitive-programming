@@ -1,4 +1,6 @@
-class Solution {
+package leetcode;
+
+class LC_1_TwoSum {
     /**
      * EASY
      * 
@@ -9,7 +11,7 @@ class Solution {
      * You can return the answer in any order.
      * 
      * @param nums array of integers
-     * @param targer integer target to be found
+     * @param target integer target to be found
      */
     public int[] twoSum(int[] nums, int target) {
         //iterate over array of integers

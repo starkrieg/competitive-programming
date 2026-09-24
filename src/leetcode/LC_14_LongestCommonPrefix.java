@@ -1,4 +1,6 @@
-class Solution {
+package leetcode;
+
+class LC_14_LongestCommonPrefix {
     /**
      * EASY
      * 
@@ -12,7 +14,7 @@ class Solution {
      * @param strs array of strings to be checked
      */
     public String longestCommonPrefix(String[] strs) {
-        //if only 1 string, the it is the common prefix
+        //if only 1 string, then it is the common prefix
         //if first string is empty, then there should be no valid common prefix
         //so return the first string
         if (strs.length == 1 || "".equals(strs[0])) {

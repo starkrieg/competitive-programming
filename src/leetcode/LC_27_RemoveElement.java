@@ -1,4 +1,6 @@
-class Solution {
+package leetcode;
+
+class LC_27_RemoveElement {
     /**
      * EASY
      * 
